@@ -1,0 +1,574 @@
+/* ---ESTILIZAÇÕES GLOBAIS--- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f5f3;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer hr {
+    border: 1px solid #444;
+    margin: 10px auto;
+    width: 50%;
+}
+
+footer span {
+    display: block;
+    font-size: 1rem;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+footer span:hover {
+    color: #f2a900;
+    text-decoration: underline;
+}
+
+/* ---PÁGINA 1 - LOGIN--- */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f6f5f3;
+    margin: 0;
+    padding: 0;
+}
+
+h1.h1-login {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+    background-color: #f6f5f3;
+    color: #333;
+}
+
+h2.h2-login {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #f6f5f3;
+    color: #333;
+}
+
+h3.h3-login {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.login-entrar {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.p-login {
+    font-size: 12px;
+    color: #666;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+a button {
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: #333;
+}
+
+/* ---PÁGINA 2 - CADASTRO---*/
+h1.h1-cad {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    margin: 0;
+    color: #333;
+}
+
+h3.h3-cad {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container-cad-branco {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3333336b;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #ffff;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d8ab63;
+}
+
+button[type="submit"] {
+    display: block;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #333;
+}
+
+p.p-cad {
+    font-size: 12px;
+    color: #666;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.container-nao-conta{
+    text-align: center;
+}
+/* ---PÁGINA 3 - BOAS-VINDAS---*/
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu .icone-cab,
+.actions .icone-cab {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu span {
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.actions .texto {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.actions .icone-cab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.carrinho {
+    position: relative;
+}
+
+.carrinho .num-car {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 18px;
+    height: 18px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Banner 1 */
+.banner1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1; 
+}
+
+.banner1 h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 3rem;
+}
+
+/* Banner 2 */
+.banner2 {
+    position: relative;
+    width: 95%;
+    height: 95vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.banner2 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Lojinha */
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Sempre 4 colunas */
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto-item {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.produto-item:hover {
+    transform: translateY(-10px);
+}
+
+.produto-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.produto-info {
+    padding: 15px;
+}
+
+.produto-nome {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.produto-descricao {
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.produto-preco {
+    font-weight: bold;
+    color: #222;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.produto-btn-compra {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.produto-btn-compra:hover {
+    background-color: #555;
+}
+
+.produto-item:hover .produto-btn-compra {
+    background-color: #444;
+}
+/* ---ADMIN--- */
+.container-admin {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.h1-admin {
+    text-align: center;
+    background-color: #fff;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(70% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.botao-buscar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.h3-admin {
+    color: #34495e;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    flex: 1 1 calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #333;
+}
+
+form button {
+    flex: 1 1 calc(50% - 10px);
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.todos-cad-admin {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: #333;
+    color: white;
+}
+
+table th,
+table td {
+    color: #333;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+}
+
+table th {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+table td {
+    font-size: 0.9rem;
+}

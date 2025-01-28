@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="geral.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1-login">Identificação</h1>
+
+    <h3 class="h3-login">Campos obrigatórios *</h3>
+    
+    <div id="errorMessage" style="color: red;"></div>
+
+    <div class="login-entrar" id="login">
+        <label for="">EMAIL *</label>
+        <input type="text" id="email" required>
+        <br><br>
+        <label for="">SENHA*</label>
+        <input type="password" id="senha" required>
+
+        <p class="p-login">Esqueceu sua senha?</p>
+    </div>
+
+    <button onclick="login();redirecionar()">Entrar</button>
+    <hr>
+
+    <div class="container-nao-conta">
+        <h3 class="h3-login">Eu não tenho uma conta.</h3>
+        <p>Aproveite benefícios adicionais e uma experiência mais rica ao criar uma conta pessoal.</p>
+        
+        <br><a href="cadastro.html"><button>Criar minha conta LV</button></a>
+    </div>
+
+    <footer>
+        <h3>LOUIS VUITTON</h3>
+        <hr>
+        <span>Junte-se ao mundo da Louis Vuitton</span>
+        <br>
+        <span>Contato</span>
+        <br>
+        <span>Lojas</span>
+        <br>
+        <span>Sustentabilidade</span>
+        <br>
+        <span>Aplicativos</span>
+        <br>
+        <span>Siga-nos</span>
+        <br>
+        <span>Jurídico e Privacidade</span>
+        <br>
+        <span>Biscoitos</span>
+        <br>
+        <span>Empregos</span>
+        <br>
+        <span>Mapa do site</span>
+    </footer>
+</body>
+</html>
