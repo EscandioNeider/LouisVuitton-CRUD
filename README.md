@@ -3,7 +3,7 @@
 Este projeto é uma reprodução do site da Louis Vuitton, criado para fins de aprendizado. O objetivo é colocar em prática o protocolo CRUD e utilizar o **Json-Server**.  
 ⚠️ Atenção: Este projeto não é oficial e **não possui afiliação com a marca Louis Vuitton**.
 
-> **Nota:** O site não está responsivo e faz uso do terminal
+> **Nota:** O site não está responsivo.
 
 ⚙ Logins para entrar na parte de Admin:
 
@@ -23,4 +23,4 @@ Este projeto é uma reprodução do site da Louis Vuitton, criado para fins de a
 `#educational-project`  `#site-clone`  `#html-css-javascript`  
 `#learning-purpose`  `#web-development`  `#no-affiliation`
 
-🔗 Visite o site: (https://escandioneider.github.io/LouisVuitton-CRUD/)
+🔗 Visite o site: ()

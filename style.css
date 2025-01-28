@@ -371,7 +371,7 @@ header {
 /* Lojinha */
 .grid-produtos {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Sempre 4 colunas */
+    grid-template-columns: repeat(6, 1fr); /* Sempre 4 colunas */
     gap: 20px;
     padding: 20px;
 }
@@ -383,6 +383,7 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
+    width: 14.063rem;
 }
 
 .produto-item:hover {
@@ -550,7 +551,7 @@ table thead {
 
 table th,
 table td {
-    color: #333;
+    color: #362323ad;
     padding: 15px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -560,8 +561,9 @@ table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-table tr:hover {
-    background-color: #e9ecef;
+table tr {
+    background-color: #ffffff;
+    color: #f6f5f3;
 }
 
 table th {
