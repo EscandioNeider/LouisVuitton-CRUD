@@ -4,6 +4,7 @@ Este projeto é uma reprodução do site da Louis Vuitton, criado para fins de a
 ⚠️ Atenção: Este projeto não é oficial e **não possui afiliação com a marca Louis Vuitton**.
 
 > **Nota:** O site não está responsivo.
+>Como houve uso do Json-Server para a execução deste projeto, apenas deixarei aqui o código-fonte.
 
 ⚙ Logins para entrar na parte de Admin:
 
@@ -23,4 +24,3 @@ Este projeto é uma reprodução do site da Louis Vuitton, criado para fins de a
 `#educational-project`  `#site-clone`  `#html-css-javascript`  
 `#learning-purpose`  `#web-development`  `#no-affiliation`
 
-🔗 Visite o site: ()
