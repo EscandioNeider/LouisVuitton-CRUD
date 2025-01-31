@@ -95,8 +95,12 @@ function cadastro() {
 // ---BOAS-VINDAS---
 function logoutUser() {
     // Redireciona para a página de login
+if (confirm("Tem certeza de que deseja fazer o log out")) {
     window.location.href = 'index.html';
-}
+            } else {
+                alert('Ok. Continue navegando');
+            }  
+        }
 
 function admPerm() {
      // Redireciona para a página de permissão
